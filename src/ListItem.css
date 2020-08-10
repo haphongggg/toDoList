@@ -1,0 +1,32 @@
+.List{
+    color: #Fff;
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 0 50px;
+    border-radius: 5px;
+}
+.List p{
+    padding: 10px;
+    position: relative;
+}
+.List p span {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.List p input{
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+}
+
+.List p input:focus {
+    outline: none;
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 16px;
+}
